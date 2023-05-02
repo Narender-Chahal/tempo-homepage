@@ -8,9 +8,11 @@
   padding: 0;
   font-weight: 400 !important;
 }
+
 .ff_magra {
   font-family: "Magra", sans-serif;
 }
+
 .ff_highspeed {
   font-family: "High Speed" !important;
 }
@@ -19,21 +21,31 @@
   font-family: "High Speed";
   src: url("./assets/fonts/High\ Speed.otf");
 }
+
 :root {
   --fs-xsm: 20px;
   --fs-sm: 22px;
   --fs-md: 49px;
   --fs-lg: 60px;
+  --fs-26: 26px;
 }
+
 .fs_xsm {
   font-size: var(--fs-xsm);
 }
+
 .fs_sm {
   font-size: var(--fs-sm);
 }
+
 .fs_md {
   font-size: var(--fs-md);
 }
+
 .fs_lg {
   font-size: var(--fs-lg);
+}
+
+.fs_26 {
+  font-size: var(--fs-26);
 }

@@ -6,6 +6,7 @@ import AboutSection from "./components/AboutSection";
 import Mynav from "./components/Mynav";
 import HeroSection from "./components/HeroSection";
 import Story from "./components/Story";
+import Team from "./components/Team";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
         <Mynav />
           <HeroSection />
       </div>
-      <Story/>
+      <Story />
+      <Team/>
     </>
   );
 }
