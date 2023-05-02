@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Magra&display=swap");
+
 * {
   list-style-type: none !important;
   text-decoration: none !important;
@@ -5,6 +7,17 @@
   margin: 0;
   padding: 0;
   font-weight: 400 !important;
+}
+.ff_magra {
+  font-family: "Magra", sans-serif;
+}
+.ff_highspeed {
+  font-family: "High Speed" !important;
+}
+
+@font-face {
+  font-family: "High Speed";
+  src: url("./assets/fonts/High\ Speed.otf");
 }
 :root {
   --fs-xsm: 20px;
