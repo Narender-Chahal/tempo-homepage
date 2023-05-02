@@ -12,7 +12,7 @@ function Mynav() {
   return (
     <>
       <section>
-        <nav className="nav_bg_clr">
+        <nav className="nav_bg_clr py-3 py-lg-0">
           <Container>
             <div className="d-flex align-items-center justify-content-between ">
               <img src={Navlogo} alt="Navlogo" />

@@ -142,7 +142,7 @@ ul li a:hover::before {
         position: fixed;
         top: 0;
         left: -100%;
-        background-color: #31cde2;
+        background: linear-gradient(90.44deg, #FBF4B7 -6.5%, #31CDE2 24.17%, #5276FF 57.63%, #D874FF 96.66%);
         transition: 0.5s ease-in-out;
         height: 100vh;
         width: 100%;
@@ -158,7 +158,7 @@ ul li a:hover::before {
         position: fixed;
         top: 0;
         left: 0;
-        background-color: #31cde2;
+        background: linear-gradient(90.44deg, #FBF4B7 -6.5%, #31CDE2 24.17%, #5276FF 57.63%, #D874FF 96.66%);
         transition: 0.5s ease-in-out;
         height: 100vh;
         width: 100%;
