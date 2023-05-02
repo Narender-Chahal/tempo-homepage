@@ -6,3 +6,21 @@
   padding: 0;
   font-weight: 400 !important;
 }
+:root {
+  --fs-xsm: 20px;
+  --fs-sm: 22px;
+  --fs-md: 49px;
+  --fs-lg: 60px;
+}
+.fs_xsm {
+  font-size: var(--fs-xsm);
+}
+.fs_sm {
+  font-size: var(--fs-sm);
+}
+.fs_md {
+  font-size: var(--fs-md);
+}
+.fs_lg {
+  font-size: var(--fs-lg);
+}
