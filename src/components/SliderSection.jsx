@@ -39,13 +39,13 @@ function SliderSection() {
       />
       <button
         className="button_prev border-0 position-absolute  top_65 left_5 "
-        onClick={() => first.current.slickNext()}
+        onClick={() => first.current.slickPrev()}
       >
         <img className="" src={back_vector} alt="back_vector" />
       </button>
       <button
         className="button_prev border-0 position-absolute  top_65 right_5 "
-        onClick={() => first.current.slickPrev()}
+        onClick={() => first.current.slickNext()}
       >
         <img src={next_vector} alt="next_vector" />
       </button>
