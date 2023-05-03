@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
@@ -7,17 +6,22 @@ import Mynav from "./components/Mynav";
 import HeroSection from "./components/HeroSection";
 import Story from "./components/Story";
 import Team from "./components/Team";
-
+import WatchSection from "./components/WatchSection";
+import SliderSection from "./components/SliderSection";
+import FaqSection from "./components/FaqSection";
 function App() {
   return (
     <>
-      {/* <AboutSection /> */}
       <div className="header_bg vh_100_xl d-flex flex-column">
         <Mynav />
-          <HeroSection />
+        <HeroSection />
       </div>
       <Story />
-      <Team/>
+      <AboutSection />
+      <WatchSection />
+      {/* <SliderSection /> */}
+      <Team />
+      <FaqSection/>
     </>
   );
 }
