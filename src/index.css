@@ -101,7 +101,7 @@ ul li a:hover::before {
     width: 367px;
     height: 367px;
     background: #5476FF;
-    filter: blur(100px);
+    filter: blur(70px);
 }
 
 .ryt_light {
@@ -129,10 +129,11 @@ ul li a:hover::before {
 .vh_100_xl {
     min-height: 100vh;
 }
-.img_text{
-    left: 100px;
+
+.img_text {
+    left: 50%;
     bottom: 20px;
-    transform: translateX(10%);
+    transform: translateX(-50%);
 }
 
 .menu_icon {
@@ -140,6 +141,30 @@ ul li a:hover::before {
     height: 3px;
     background-color: #fff;
     display: block;
+}
+
+.team_side_light {
+    right: 0;
+    bottom: 10px;
+    width: 70px;
+}
+
+.ryt_icon_team {
+    right: 0;
+    bottom: 10px;
+    width: 80px;
+}
+
+.left_icon_team {
+    left: 0;
+    top: 50px;
+    width: 70px;
+}
+
+.left_icon_cercil_team {
+    left: 0;
+    top: 200px;
+    width: 70px;
 }
 
 @media (max-width:992px) {
@@ -172,8 +197,10 @@ ul li a:hover::before {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
     }
+}
+
+@media (max-width:1200px) {
     .vh_100_xl {
         min-height: 0vh;
     }

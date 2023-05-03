@@ -23,12 +23,12 @@ const Story = () => {
         <Container>
           <Row>
             <Col lg={6}>
-              <div className="gradiant_border d-inline-block overflow-hidden">
-                <img className="w-100" src={Gifvidio} alt="Gifvidio" />
+              <div className="gradiant_border d-inline-block overflow-hidden d-flex justify-content-center justify-content-lg-start">
+                <img className="w-100 " src={Gifvidio} alt="Gifvidio" />
               </div>
             </Col>
             <Col lg={6}>
-              <div className="mt-5 mt-lg-0">
+              <div className="mt-5 mt-lg-0 text-center text-lg-start">
                 <h2 className="ff_highspeed fs_md text-white">Story</h2>
                 <p className="ff_magra fs_sm text-white">
                   Facilisi nec at ullamcorper consequat venenatis cursus
