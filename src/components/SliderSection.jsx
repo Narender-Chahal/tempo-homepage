@@ -54,34 +54,7 @@ function SliderSection() {
         <h2 className="mb-0  ff_highspeed fs_md text-white text-center pb-5">
           our nft
         </h2>
-        <Slider ref={first} {...settings} className="pt-lg-5">
-          <Col lg={4} className="px-4 pt-5">
-            <div className="border_linear_slider position-relative">
-              <img
-                className="w_100_lg slide_img position-absolute bottom-0 h-10 0  transform_translate"
-                src={men_img}
-                alt="men_img"
-              />
-            </div>
-          </Col>
-          <Col lg={4} className="px-4 pt-5">
-            <div className="border_linear_slider position-relative">
-              <img
-                className="w_100_lg slide_img position-absolute bottom-0 h-10 0  transform_translate"
-                src={women_img}
-                alt="men_img"
-              />
-            </div>
-          </Col>
-          <Col lg={4} className="px-4 pt-5">
-            <div className="border_linear_slider position-relative">
-              <img
-                className="w_100_lg slide_img position-absolute bottom-0 h-10 0  transform_translate"
-                src={women_img2}
-                alt="men_img"
-              />
-            </div>
-          </Col>
+        <Slider>
           <Col lg={4} className="px-4 pt-5">
             <div className="border_linear_slider position-relative">
               <img

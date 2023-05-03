@@ -9,7 +9,9 @@ import Team from "./components/Team";
 import WatchSection from "./components/WatchSection";
 import SliderSection from "./components/SliderSection";
 import FaqSection from "./components/FaqSection";
+
 function App() {
+  
   return (
     <>
       <div className="header_bg vh_100_xl d-flex flex-column">
@@ -19,9 +21,9 @@ function App() {
       <Story />
       <AboutSection />
       <WatchSection />
-      {/* <SliderSection /> */}
+      <SliderSection />
       <Team />
-      <FaqSection/>
+      <FaqSection />
     </>
   );
 }

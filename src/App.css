@@ -37,6 +37,7 @@
 .fs_sm {
   font-size: var(--fs-sm);
 }
+
 .fs_30 {
   font-size: 30px;
 }
@@ -48,33 +49,37 @@
 .fs_lg {
   font-size: var(--fs-lg);
 }
+
 .fs_26 {
   font-size: var(--fs-26);
 }
+
 .z_index1 {
   z-index: 50;
 }
+
 .z_1 {
   z-index: -1;
 }
+
 .box_play {
-  background: linear-gradient(
-    180deg,
-    #f1ff52 6.25%,
-    #31cde2 49.08%,
-    #d874ff 100%
-  );
+  background: linear-gradient(180deg,
+      #f1ff52 6.25%,
+      #31cde2 49.08%,
+      #d874ff 100%);
   opacity: 0.9;
   height: 97px;
   width: 97px;
   border-radius: 50%;
 }
+
 .play_box1 {
   background: linear-gradient(180deg, #31cde2 0%, #5276ff 47.57%, #d874ff 100%);
   height: 80px;
   width: 80px;
   border-radius: 50%;
 }
+
 .play_box2 {
   background: linear-gradient(180deg, #31cde2 0%, #5276ff 47.57%, #d874ff 100%);
   opacity: 0.8;
@@ -83,23 +88,27 @@
   border-radius: 50%;
   z-index: -1;
 }
+
 .mint_bg_btn {
   transform: translate(60px, 50%);
 }
+
 .cursor_pointer {
   cursor: pointer;
 }
+
 .watch_img_position_adjust {
   height: 130px;
   width: 60px;
   top: 20%;
 }
+
 .watch_img_position_adjust {
   animation: small_large 10s linear infinite;
 }
-.slick-list {
-  overflow: visible !important;
-}
+
+
+
 @keyframes small_large {
   50% {
     width: 60px;
@@ -107,6 +116,7 @@
     /* transform: rotateX(180deg); */
   }
 }
+
 .blur_circle {
   background: #5476ff;
   filter: blur(100px);
@@ -115,36 +125,38 @@
   top: 10%;
   z-index: 1;
 }
+
 .blur_circle {
   animation: opacity_blur 5s linear infinite;
 }
+
 @keyframes opacity_blur {
   50% {
     opacity: 0.2;
   }
 }
+
 .play_box2 {
   animation: scale_play 5s linear infinite;
 }
+
 @keyframes scale_play {
   50% {
     transform: scale(0.8, 0.8);
   }
 }
+
 .border_linear_slider {
   backdrop-filter: blur(29.458px);
   border-radius: 47.7046px;
   height: 460px;
   border: 4.28px solid transparent;
   background: linear-gradient(black, black) padding-box,
-    linear-gradient(
-        90.44deg,
-        #fbf4b7 -6.5%,
-        #31cde2 24.17%,
-        #5276ff 57.63%,
-        #d874ff 96.66%
-      )
-      border-box;
+    linear-gradient(90.44deg,
+      #fbf4b7 -6.5%,
+      #31cde2 24.17%,
+      #5276ff 57.63%,
+      #d874ff 96.66%) border-box;
 }
 
 .nft_img1 {
@@ -152,6 +164,7 @@
   width: 100px;
   top: 10%;
 }
+
 .blur_circle2 {
   background: #5476ff;
   filter: blur(100px);
@@ -159,22 +172,27 @@
   width: 150px;
   top: 0%;
 }
+
 .transform_translate {
   transform: translateX(-50%);
   left: 0%;
   bottom: 0;
 }
+
 .border_linear_slider {
   height: 400px;
 }
+
 .slide_img {
   transform: translateY(-5%);
   height: 450px !important;
 }
+
 .slick-center .border_linear_slider {
   height: 450px;
   transform: translateY(-10%);
 }
+
 .slick-center .slide_img {
   transform: translateY(-5%);
   height: 500px !important;
@@ -183,34 +201,38 @@
 .w_100_lg {
   width: 100%;
 }
+
 .button_prev {
-  background: linear-gradient(
-    90.44deg,
-    #fbf4b7 -6.5%,
-    #31cde2 24.17%,
-    #5276ff 57.63%,
-    #d874ff 96.66%
-  );
+  background: linear-gradient(90.44deg,
+      #fbf4b7 -6.5%,
+      #31cde2 24.17%,
+      #5276ff 57.63%,
+      #d874ff 96.66%);
   height: 60px;
   width: 60px;
   border-radius: 50%;
   z-index: 5;
 }
+
 .left_5 {
   left: 5%;
 }
+
 .right_5 {
   right: 5%;
 }
+
 .accordiyan_box {
   background: #07133b !important;
   border-radius: 15px;
 }
+
 .accordion-button:not(.collapsed) {
   color: white !important;
   background-color: #141f45 !important;
   box-shadow: unset !important;
 }
+
 .accordion-button {
   background-color: #141f45 !important;
 }
@@ -233,9 +255,11 @@
   padding-bottom: 20px !important;
   border-bottom: 1px solid #141f45;
 }
+
 .accordiyan_bg {
   background-color: #141f45 !important;
 }
+
 .accordion-button {
   font-weight: 500 !important;
   color: white !important;
@@ -245,6 +269,7 @@
   padding-left: 5px !important;
   padding-right: 5px !important;
 }
+
 .accordion-button::after {
   rotate: 0deg !important;
   background-image: url("./assets/img/png/up_vector.png") !important;
@@ -255,6 +280,7 @@
   rotate: 90deg !important;
   background-color: #141f45 !important;
 }
+
 button:focus:not(:focus-visible) {
   outline: 0 !important;
 }
@@ -271,15 +297,18 @@ button:focus:not(:focus-visible) {
   background-clip: text;
   box-shadow: unset !important;
 }
+
 .faq_bg {
   background-image: url(./assets/img/png/faq_bg.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
+
 @media (max-width: 1200px) {
   .width_adjust {
     width: 100% !important;
   }
+
   :root {
     --fs-xsm: 20px;
     --fs-sm: 18px;
@@ -287,32 +316,40 @@ button:focus:not(:focus-visible) {
     --fs-lg: 60px;
   }
 }
+
 @media (max-width: 992px) {
   .transform_translate {
     transform: translate(-50%) !important;
     left: 50%;
   }
+
   .w_100_lg {
     width: 100%;
   }
+
   .border_linear_slider {
     height: 300px;
   }
+
   .slide_img {
     transform: translateY(-5%);
     height: 350px !important;
   }
+
   .slick-center .border_linear_slider {
     height: 330px;
     transform: translateY(-10%);
   }
+
   .slick-center .slide_img {
     transform: translateY(-5%);
     height: 400px !important;
   }
+
   .fs_30 {
     font-size: 25px;
   }
+
   :root {
     --fs-xsm: 20px;
     --fs-sm: 22px;
@@ -321,41 +358,51 @@ button:focus:not(:focus-visible) {
     --fs-26: 26px;
   }
 }
+
 @media (max-width: 768px) {
   .height_adjust {
     height: 300px !important;
   }
+
   .border_linear_slider {
     height: 400px;
   }
+
   :root {
     --fs-xsm: 20px;
     --fs-sm: 18px;
     --fs-md: 40px;
     --fs-lg: 60px;
   }
+
   .border_linear_slider {
     height: 360px;
   }
+
   .slide_img {
     transform: translateY(-5%);
     height: 420px !important;
   }
+
   .slick-center .border_linear_slider {
     height: 400px;
     transform: translateY(-10%);
   }
+
   .slick-center .slide_img {
     transform: translateY(-5%);
     height: 450px !important;
   }
+
   .accordion-body {
     padding-left: 5px !important;
     margin-left: 5px !important;
   }
+
   .fs_30 {
     font-size: 22px;
   }
+
   :root {
     --fs-xsm: 20px;
     --fs-sm: 22px;
@@ -364,6 +411,7 @@ button:focus:not(:focus-visible) {
     --fs-26: 26px;
   }
 }
+
 @media (max-width: 576px) {
   :root {
     --fs-xsm: 20px;
@@ -371,17 +419,20 @@ button:focus:not(:focus-visible) {
     --fs-md: 25px;
     --fs-lg: 30px;
   }
+
   .box_play {
     height: 70px;
     width: 70px;
   }
+
   .play_box1 {
     height: 55px;
     width: 55px;
   }
+
   .play_box2 {
     height: 80px;
     width: 80px;
   }
-  
+
 }
