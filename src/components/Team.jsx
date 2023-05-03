@@ -39,7 +39,7 @@ const Team = () => {
             </Col>
             <Col md={6} lg={4}>
               <div className="position-relative mt-4 gradiant_border">
-                <img className="w-100 d-inline-block" src={TeamImg2} alt="TEamImg1" />
+                <img className="w-100 " src={TeamImg2} alt="TEamImg1" />
                 <div className="position-absolute img_text ">
                   <h2 className="ff_highspeed fs_26 text-white">johhn doe</h2>
                   <p className="ff_magra fs_xsm text-white">
@@ -49,7 +49,7 @@ const Team = () => {
               </div>
             </Col>
             <Col md={6} lg={4}>
-              <div className="position-relative mt-4 gradiant_border d-inline-block">
+              <div className="position-relative mt-4 gradiant_border ">
                 <img className="w-100" src={TeamImg3} alt="TEamImg1" />
                 <div className="position-absolute img_text ">
                   <h2 className="ff_highspeed fs_26 text-white">johhn doe</h2>
