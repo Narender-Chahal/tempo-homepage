@@ -12,7 +12,17 @@ import FaqSection from "./components/FaqSection";
 import FooterSection from "./components/FooterSection";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 function App() {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+      duration: 600,
+      delay: 100,
+    });
+  }, []);
   return (
     <>
       <div className="header_bg vh_100_xl d-flex flex-column">

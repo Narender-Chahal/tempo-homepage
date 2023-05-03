@@ -1,9 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
 import footer_logo from "../assets/img/png/logo.png";
 import { Container } from "react-bootstrap";
+import back_to_top from "../assets/img/png/back_to_top.png";
+
 function FooterSection() {
+  const [first, setfirst] = useState(false);
+  const movetotop = () => {
+    document.documentElement.scrollTop = 0;
+  };
+  window.addEventListener("scroll", () => {
+    if (document.documentElement.scrollTop > 200) {
+      setfirst(true);
+    } else {
+      setfirst(false);
+    }
+  });
   return (
-    <section className="pt-5 mt-5">
+    <section className="pt-5 mt-5 position-relative">
+      <a
+        className={
+          first
+            ? " border-0 position-fixed bottom-0 end-0 m-5 d-flex align-items-center justify-content-center box_back_top"
+            : "position-fixed bottom-0 d-none"
+        }
+        onClick={() => movetotop()}
+        href="#"
+      >
+        <img src={back_to_top} alt="back_to_top" />
+      </a>
       <Container className="pt-5 mt-5">
         <div className="text-center">
           <a href="#">
@@ -122,7 +146,9 @@ function FooterSection() {
         <div className="line_footer "></div>
       </div>
       <div className="text-center">
-        <p className=" ff_magra fs_16 clr_dark mb-0 pb-3">Copyright@Tempo.com</p>
+        <p className=" ff_magra fs_16 clr_dark mb-0 pb-3">
+          Copyright@Tempo.com
+        </p>
       </div>
     </section>
   );
