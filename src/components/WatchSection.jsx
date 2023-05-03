@@ -12,7 +12,7 @@ function WatchSection() {
         alt="watch_position_img"
       />
       <div className="blur_circle  position-absolute "></div>
-      <Container className="py-lg-5 py-4" >
+      <Container className="py-lg-5 py-4">
         <h2 className="mb-0  ff_highspeed fs_md text-white text-center">
           watch video
         </h2>
@@ -22,7 +22,6 @@ function WatchSection() {
             className=" position-absolute top-50 start-50 translate-middle z_index1"
             href="#"
           >
-            {" "}
             <div className="play_box2 d-flex justify-content-center  align-items-center z_index1">
               <div className="box_play d-flex justify-content-center  align-items-center z_index1">
                 <div className="play_box1 d-flex justify-content-center  align-items-center z_index1">
