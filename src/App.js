@@ -19,7 +19,7 @@ function App() {
       <Story />
       <AboutSection />
       <WatchSection />
-      <SliderSection />
+      {/* <SliderSection /> */}
       <Team />
       <FaqSection/>
     </>

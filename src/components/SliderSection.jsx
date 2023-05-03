@@ -41,19 +41,19 @@ function SliderSection() {
         className="button_prev border-0 position-absolute top-50 left_5 "
         onClick={() => first.current.slickNext()}
       >
-        <img className="" src={back_vector} alt="back_vector" />{" "}
+        <img className="" src={back_vector} alt="back_vector" />
       </button>
       <button
         className="button_prev border-0 position-absolute top-50 right_5 "
         onClick={() => first.current.slickPrev()}
       >
-        <img src={back_vector} alt="back_vector" />{" "}
+        <img src={back_vector} alt="back_vector" />
       </button>
       <div className="blur_circle2 position-absolute end-0"></div>
       <Container className=" overflow-hidden">
         <h2 className="mb-0  ff_highspeed fs_md text-white text-center pb-5">
-          our nft{" "}
-        </h2>{" "}
+          our nft
+        </h2>
         <Slider ref={first} {...settings} className="pt-lg-5">
           <Col lg={4} className="px-4 pt-5">
             <div className="border_linear_slider position-relative">
