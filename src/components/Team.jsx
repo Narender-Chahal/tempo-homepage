@@ -26,7 +26,7 @@ const Team = () => {
             <h2 className="ff_highspeed fs_md text-white">Team</h2>
           </div>
           <Row className="py-5 justify-content-center">
-            <Col md={6} lg={4}>
+            <Col sm={6} xs={8} lg={4}>
               <div className="position-relative mt-4 gradiant_border">
                 <img className="w-100" src={TeamImg1} alt="TEamImg1" />
                 <div className="position-absolute img_text ">
@@ -37,9 +37,9 @@ const Team = () => {
                 </div>
               </div>
             </Col>
-            <Col md={6} lg={4}>
+            <Col sm={6} xs={8} lg={4}>
               <div className="position-relative mt-4 gradiant_border">
-                <img className="w-100 d-inline-block" src={TeamImg2} alt="TEamImg1" />
+                <img className="w-100 " src={TeamImg2} alt="TEamImg1" />
                 <div className="position-absolute img_text ">
                   <h2 className="ff_highspeed fs_26 text-white">johhn doe</h2>
                   <p className="ff_magra fs_xsm text-white">
@@ -48,8 +48,8 @@ const Team = () => {
                 </div>
               </div>
             </Col>
-            <Col md={6} lg={4}>
-              <div className="position-relative mt-4 gradiant_border d-inline-block">
+            <Col sm={6} xs={8} lg={4}>
+              <div className="position-relative mt-4 gradiant_border ">
                 <img className="w-100" src={TeamImg3} alt="TEamImg1" />
                 <div className="position-absolute img_text ">
                   <h2 className="ff_highspeed fs_26 text-white">johhn doe</h2>

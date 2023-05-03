@@ -47,7 +47,7 @@ function SliderSection() {
         className="button_prev border-0 position-absolute top-50 right_5 "
         onClick={() => first.current.slickPrev()}
       >
-        <img src={back_vector} alt="back_vector" />
+        <img src={next_vector} alt="next_vector" />
       </button>
       <div className="blur_circle2 position-absolute end-0"></div>
       <Container className=" overflow-hidden">

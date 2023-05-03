@@ -9,6 +9,9 @@ import Team from "./components/Team";
 import WatchSection from "./components/WatchSection";
 import SliderSection from "./components/SliderSection";
 import FaqSection from "./components/FaqSection";
+import FooterSection from "./components/FooterSection";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 function App() {
   return (
     <>
@@ -19,9 +22,12 @@ function App() {
       <Story />
       <AboutSection />
       <WatchSection />
-      {/* <SliderSection /> */}
+      <SliderSection />
       <Team />
-      <FaqSection/>
+      <div className="faq_bg ">
+        <FaqSection />
+        <FooterSection />
+      </div>
     </>
   );
 }

@@ -40,7 +40,12 @@
 .fs_30 {
   font-size: 30px;
 }
-
+.fs_16 {
+  font-size: 16px;
+}
+.clr_dark {
+  color: #b3b3b4;
+}
 .fs_md {
   font-size: var(--fs-md);
 }
@@ -328,6 +333,48 @@ element.style {
     transform: scale(0.8, 0.8);
   }
 }
+.footer_border {
+  border: 2.28px solid transparent;
+  background: linear-gradient(black, black) padding-box,
+    linear-gradient(
+        90.44deg,
+        #fbf4b7 -6.5%,
+        #31cde2 24.17%,
+        #5276ff 57.63%,
+        #d874ff 96.66%
+      )
+      border-box;
+  border-radius: 50%;
+  height: 46px;
+  width: 46px;
+  transition: all 1 s ease-in-out !important;
+}
+.footer_border:hover {
+  background: linear-gradient(
+        90.44deg,
+        #fbf4b7 -6.5%,
+        #31cde2 24.17%,
+        #5276ff 57.63%,
+        #d874ff 96.66%
+      )
+      padding-box,
+    linear-gradient(
+        90.44deg,
+        #fbf4b7 -6.5%,
+        #31cde2 24.17%,
+        #5276ff 57.63%,
+        #d874ff 96.66%
+      )
+      border-box;
+  transition: all 1s ease-in-out;
+}
+.footer_border:hover svg path {
+  fill: white;
+}
+.line_footer {
+  opacity: 0.1;
+  border: 1px solid #ffffff;
+}
 .border_linear_slider {
   backdrop-filter: blur(29.458px);
   border-radius: 47.7046px;
@@ -550,6 +597,16 @@ button:focus:not(:focus-visible) {
   .slick-center .slide_img {
     transform: translateY(-5%);
     height: 400px !important;
+  }
+  .slick-list {
+    overflow: visible;
+    width: 100%;
+  }
+
+  .slick-track {
+    width: 100%;
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
   }
   .fs_30 {
     font-size: 25px;
