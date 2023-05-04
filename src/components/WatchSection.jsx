@@ -16,7 +16,7 @@ function WatchSection() {
         <h2 className="mb-0  ff_highspeed fs_md text-white text-center">
           watch video
         </h2>
-        <div className="position-relative mt-lg-5 mt-4">
+        <div className="position-relative mt-lg-5 mt-4" data-aos="flip-left">
           <img className="w-100 z_1" src={coming_img} alt="coming_img" />
           <a
             className=" position-absolute top-50 start-50 translate-middle z_index1"

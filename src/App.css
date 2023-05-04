@@ -42,6 +42,14 @@
   font-size: 30px;
 }
 
+.fs_16 {
+  font-size: 16px;
+}
+
+.clr_dark {
+  color: #b3b3b4;
+}
+
 .fs_md {
   font-size: var(--fs-md);
 }
@@ -351,6 +359,49 @@ element.style {
       #d874ff 96.66%) border-box;
 }
 
+.footer_border {
+  background: linear-gradient(black, black) padding-box,
+    linear-gradient(90.44deg,
+      #fbf4b7 -6.5%,
+      #31cde2 24.17%,
+      #5276ff 57.63%,
+      #d874ff 96.66%) border-box;
+  border: 2.28px solid transparent;
+
+  border-radius: 50%;
+  height: 46px;
+  width: 46px;
+}
+
+.footer_border:hover {
+  background: linear-gradient(90.44deg,
+      #fbf4b7 -6.5%,
+      #31cde2 24.17%,
+      #5276ff 57.63%,
+      #d874ff 96.66%) padding-box,
+    linear-gradient(90.44deg,
+      #fbf4b7 -6.5%,
+      #31cde2 24.17%,
+      #5276ff 57.63%,
+      #d874ff 96.66%) border-box;
+}
+
+.footer_border:hover svg path {
+  fill: white;
+}
+
+.line_footer {
+  opacity: 0.1;
+  border: 1px solid #ffffff;
+}
+
+.box_back_top {
+  background-color: #07133b;
+  width: 20px;
+  height: 60px;
+  border-radius: 50px;
+}
+
 .nft_img1 {
   height: 120px;
   width: 100px;
@@ -445,7 +496,7 @@ element.style {
   margin-left: 50px !important;
   max-width: 800px;
   padding-bottom: 20px !important;
-  border-bottom: 1px solid #141f45;
+  border-bottom: 1px solid #0b37d7;
 }
 
 .accordiyan_bg {
@@ -494,6 +545,10 @@ button:focus:not(:focus-visible) {
   background-image: url(./assets/img/png/faq_bg.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
+}
+
+.top_65 {
+  top: 60% !important;
 }
 
 @media (max-width: 1200px) {
@@ -578,6 +633,17 @@ button:focus:not(:focus-visible) {
   .slick-center .slide_img {
     transform: translateY(-5%);
     height: 400px !important;
+  }
+
+  .slick-list {
+    overflow: visible;
+    width: 100%;
+  }
+
+  .slick-track {
+    width: 100%;
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
   }
 
   .fs_30 {
@@ -668,5 +734,4 @@ button:focus:not(:focus-visible) {
     height: 80px;
     width: 80px;
   }
-
 }
