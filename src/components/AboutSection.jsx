@@ -10,7 +10,9 @@ function AboutSection() {
       <Container>
         <Row className="align-items-center flex-column-reverse d-flex flex-lg-row  justify-content-between">
           <Col lg={6} className="mt-5 mt-lg-0 text-center text-lg-start">
-            <h2 className="mb-0 ff_highspeed fs_md text-white">About</h2>
+            <h2 className="mb-0 ff_highspeed fs_md text-white about_text_shadow z_index1 text_shadow position-relative">
+              About
+            </h2>
             <p className="mb-0 text-white ff_magra fs_sm">
               Facilisi nec at ullamcorper consequat venenatis cursus sagittis.
               Aliquet venenatis, urna egestas elementum ultricies convallis

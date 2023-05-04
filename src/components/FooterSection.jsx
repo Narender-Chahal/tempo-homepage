@@ -16,7 +16,7 @@ function FooterSection() {
     }
   });
   return (
-    <section className="pt-5 mt-5 position-relative">
+    <section className="pt-lg-5 mt-md-5 position-relative">
       <a
         className={
           first

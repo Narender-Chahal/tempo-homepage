@@ -13,7 +13,7 @@ function WatchSection() {
       />
       <div className="blur_circle  position-absolute "></div>
       <Container className="py-lg-5 py-4">
-        <h2 className="mb-0  ff_highspeed fs_md text-white text-center">
+        <h2 className="mb-0  ff_highspeed fs_md watch_text_shadow z_2 position-relative text-white text-center">
           watch video
         </h2>
         <div className="position-relative mt-lg-5 mt-4" data-aos="flip-left">

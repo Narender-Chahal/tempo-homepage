@@ -15,6 +15,7 @@ import "slick-carousel/slick/slick-theme.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Roadmap from "./components/Roadmap";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -33,6 +34,7 @@ function App() {
       <AboutSection />
       <WatchSection />
       <SliderSection />
+      {/* <Roadmap/> */}
       <Team />
       <div className="faq_bg ">
         <FaqSection />

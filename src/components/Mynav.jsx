@@ -19,8 +19,8 @@ function Mynav() {
               <ul
                 className={
                   first
-                    ? "d-flex align-items-center gap-4 gap-xl-5 mb-0 navOpen"
-                    : "d-flex align-items-center gap-4 mb-0 navClose"
+                    ? "d-flex align-items-center gap-4 gap-xl-5 mb-0 navOpen pl_0"
+                    : "d-flex align-items-center gap-4 mb-0 navClose pl_0"
                 }
               >
                 <button

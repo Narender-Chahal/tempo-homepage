@@ -25,6 +25,7 @@
 :root {
   --fs-xsm: 20px;
   --fs-sm: 22px;
+  --fs-xlsm: 40px;
   --fs-md: 49px;
   --fs-lg: 60px;
   --fs-26: 26px;
@@ -37,7 +38,9 @@
 .fs_sm {
   font-size: var(--fs-sm);
 }
-
+.fs_xlsm{
+  font-size: var(--fs-xlsm);
+}
 .fs_30 {
   font-size: 30px;
 }
@@ -66,12 +69,18 @@
 .z_1 {
   z-index: -1;
 }
+.z_2 {
+  z-index: 2;
+}
 ul li a {
   position: relative;
 }
 
 .body_bg_black {
   background: rgba(0, 0, 0, 0.8);
+}
+.pl_0 {
+  padding-left: 0 !important;
 }
 
 ul li a::before {
@@ -161,8 +170,8 @@ ul li a:hover::before {
 }
 
 .gradiant_border {
-  border: 1px solid transparent;
-  filter: blur(1px);
+  border: 2px solid transparent;
+  /* filter: blur(1px); */
   border-radius: 24px !important;
   transform: matrix(1, 0, 0, 1, 0, 0);
   background: linear-gradient(
@@ -476,7 +485,7 @@ ul li a:hover::before {
 
 .accordion-button:not(.collapsed) {
   color: white !important;
-  background-color: #141f45 !important;
+  background-color: transparent !important;
   box-shadow: unset !important;
 }
 
@@ -525,7 +534,7 @@ ul li a:hover::before {
 .accordion-button:not(.collapsed)::after {
   background-image: url("./assets/img/png/dawn_vector.png") !important;
   rotate: 90deg !important;
-  background-color: #141f45 !important;
+  background-color: transparent !important;
 }
 
 button:focus:not(:focus-visible) {
@@ -544,14 +553,185 @@ button:focus:not(:focus-visible) {
   background-clip: text;
   box-shadow: unset !important;
 }
-
+.slick-list {
+  overflow: visible !important;
+}
 .faq_bg {
   background-image: url(./assets/img/png/faq_bg.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
+.roadmap_bg {
+  background-image: url(./components/Roadmap.jsx);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.roadmap_q1_bg {
+  background-image: url(./assets/img/png/roadmap_q1_bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+.roadmap_adjust{
+  left: 100%;
+}
 .top_65 {
   top: 60% !important;
+}
+
+/* all shadow on text */
+.text_bg_clr::after {
+  content: "Story";
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(
+      180deg,
+      #dbe86b 25.41%,
+      #d874ff 38%,
+      #8cf6b7 44.58%,
+      #118fe9 56.73%,
+      #31f4f4 62.38%,
+      #5276ff 68.04%
+    ),
+    #ffffff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: blur(3px);
+  text-transform: uppercase;
+}
+.about_text_shadow::after {
+  content: "About";
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(
+      180deg,
+      #dbe86b 25.41%,
+      #d874ff 38%,
+      #8cf6b7 44.58%,
+      #118fe9 56.73%,
+      #31f4f4 62.38%,
+      #5276ff 68.04%
+    ),
+    #ffffff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: blur(3px);
+  text-transform: uppercase;
+}
+.nft_text_shadow::after {
+  content: "our nft";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  background: linear-gradient(
+      180deg,
+      #dbe86b 25.41%,
+      #d874ff 38%,
+      #8cf6b7 44.58%,
+      #118fe9 56.73%,
+      #31f4f4 62.38%,
+      #5276ff 68.04%
+    ),
+    #ffffff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: blur(3px);
+  text-transform: uppercase;
+}
+.faq_text_shadow::after {
+  content: "faqs";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  background: linear-gradient(
+      180deg,
+      #dbe86b 25.41%,
+      #d874ff 38%,
+      #8cf6b7 44.58%,
+      #118fe9 56.73%,
+      #31f4f4 62.38%,
+      #5276ff 68.04%
+    ),
+    #ffffff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: blur(3px);
+  text-transform: uppercase;
+}
+.watch_text_shadow::after {
+  content: "watch video";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  background: linear-gradient(
+      180deg,
+      #dbe86b 25.41%,
+      #d874ff 38%,
+      #8cf6b7 44.58%,
+      #118fe9 56.73%,
+      #31f4f4 62.38%,
+      #5276ff 68.04%
+    ),
+    #ffffff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: blur(3px);
+  text-transform: uppercase;
+}
+.team_text_shadow::after {
+  content: "team";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  background: linear-gradient(
+      180deg,
+      #dbe86b 25.41%,
+      #d874ff 38%,
+      #8cf6b7 44.58%,
+      #118fe9 56.73%,
+      #31f4f4 62.38%,
+      #5276ff 68.04%
+    ),
+    #ffffff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: blur(3px);
+  text-transform: uppercase;
+}
+.roadmap_text_shadow {
+  content: "roadmap";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -5;
+  background: linear-gradient(
+      180deg,
+      #dbe86b 25.41%,
+      #d874ff 38%,
+      #8cf6b7 44.58%,
+      #118fe9 56.73%,
+      #31f4f4 62.38%,
+      #5276ff 68.04%
+    ),
+    #ffffff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: blur(3px);
+  text-transform: uppercase;
 }
 @media (max-width: 1200px) {
   .width_adjust {
@@ -598,9 +778,9 @@ button:focus:not(:focus-visible) {
     background: linear-gradient(
       90.44deg,
       #fbf4b7 -6.5%,
-      #31cde2 24.17%,
+      /* #31cde2 24.17%,
       #5276ff 57.63%,
-      #d874ff 96.66%
+      #d874ff 96.66% */
     );
     transition: 0.5s ease-in-out;
     height: 100vh;
@@ -660,6 +840,14 @@ button:focus:not(:focus-visible) {
     --fs-lg: 45px;
     --fs-26: 26px;
   }
+  .text_bg_clr::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .about_text_shadow::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 @media (max-width: 768px) {
@@ -717,10 +905,11 @@ button:focus:not(:focus-visible) {
 
 @media (max-width: 576px) {
   :root {
-    --fs-xsm: 20px;
+    --fs-xsm: 16px;
     --fs-sm: 16px;
     --fs-md: 25px;
     --fs-lg: 30px;
+    --fs-26: 20px;
   }
 
   .box_play {

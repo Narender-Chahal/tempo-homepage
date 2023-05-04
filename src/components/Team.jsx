@@ -8,7 +8,7 @@ import LeftICon from "../assets/img/png/left_circel_icon.png";
 const Team = () => {
   return (
     <>
-      <section className="py-5 position-relative">
+      <section className="py-lg-5 position-relative">
         <div className="ryt_blur_light position-absolute team_side_light">
           {" "}
         </div>
@@ -24,10 +24,12 @@ const Team = () => {
           alt="LeftICon"
         />
         <Container>
-          <div className="text-center pt-5">
-            <h2 className="ff_highspeed fs_md text-white">Team</h2>
+          <div className="text-center pt-md-5">
+              <h2 className="ff_highspeed fs_md text-white team_text_shadow position-relative">
+                Team
+              </h2>
           </div>
-          <Row className="py-5 justify-content-center">
+          <Row className="py-md-5 justify-content-center">
             <Col sm={6} xs={8} lg={4}>
               <div
                 className="position-relative mt-4 gradiant_border"

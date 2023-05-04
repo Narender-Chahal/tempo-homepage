@@ -14,10 +14,10 @@ function FaqSection() {
       <div className="blur_circle2 position-absolute end-0"></div>
       <Container>
         {" "}
-        <h2 className="mb-0  ff_highspeed fs_md text-white text-center pt-5">
+        <h2 className="mb-0  ff_highspeed fs_md text-white faq_text_shadow z_2 position-relative text-center pt-5">
           FAqs{" "}
         </h2>{" "}
-        <Accordion defaultActiveKey="0" className="pt-5">
+        <Accordion defaultActiveKey="0" className="pt-lg-5">
           <Accordion.Item
             eventKey="0"
             className="my-4 max_900 accordiyan_bg mx-auto"
