@@ -62,6 +62,188 @@
   z-index: -1;
 }
 
+ul li a {
+  position: relative;
+}
+
+.body_bg_black {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+ul li a::before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 3px;
+  bottom: -3px;
+  left: 50%;
+  background: linear-gradient(93.43deg,
+      #fbf4b7 -10.34%,
+      #31cde2 21.29%,
+      #5276ff 55.79%,
+      #d874ff 96.04%);
+  transition: 0.6s ease-in-out;
+}
+
+ul li a:hover::before {
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+.nav_bg_clr {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.header_bg {
+  background-image: url(./assets/img/png/header_bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.Navbtn {
+  background-image: url(./assets/img/png/nav_btn_bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  transition: 0.6s ease-in-out all;
+}
+
+.Navbtn:hover {
+  background-image: url("./assets/img/png/btn_more.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.navbtn_set {
+  height: 59px;
+  width: 204px;
+}
+
+.btn_more {
+  background-image: url("./assets/img/png/btn_more.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  transition: 0.6s ease-in-out all;
+}
+
+.btn_more:hover {
+  background-image: url(./assets/img/png/nav_btn_bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.text_gridient {
+  background: linear-gradient(93.43deg,
+      #fbf4b7 -10.34%,
+      #31cde2 21.29%,
+      #5276ff 55.79%,
+      #d874ff 96.04%),
+    linear-gradient(180deg,
+      #dbe86b 25.41%,
+      #d874ff 38%,
+      #8cf6b7 44.58%,
+      #118fe9 56.73%,
+      #31f4f4 62.38%,
+      #5276ff 68.04%),
+    linear-gradient(0deg, #ffffff, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradiant_border {
+  border: 1px solid transparent;
+  filter: blur(1px);
+  border-radius: 24px !important;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  background: linear-gradient(180deg,
+      #000000 -3.25%,
+      rgba(0, 0, 0, 0) 21.59%,
+      rgba(0, 0, 0, 0) 74.6%,
+      #000000 91.75%) padding-box,
+    linear-gradient(90.44deg,
+      #fbf4b7 -6.5%,
+      #31cde2 24.17%,
+      #5276ff 57.63%,
+      #d874ff 96.66%),
+    #c4c4c4 border-box;
+}
+
+.ryt_icon {
+  right: 0;
+  top: 20px;
+  max-width: 70px;
+}
+
+.ryt_blur_light {
+  width: 367px;
+  height: 367px;
+  background: #5476ff;
+  filter: blur(70px);
+}
+
+.ryt_light {
+  right: 0;
+  top: -20px;
+  width: 100px;
+}
+
+.left_icon {
+  left: 0;
+  bottom: -50px;
+  width: 70px;
+}
+
+.left_icon {
+  left: 0;
+  bottom: -50px;
+}
+
+.btn_start {
+  width: 243px;
+  height: 59px;
+}
+
+.vh_100_xl {
+  min-height: 100vh;
+}
+
+.img_text {
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+}
+
+.menu_icon {
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  display: block;
+}
+
+.team_side_light {
+  right: 0;
+  bottom: 10px;
+  width: 70px;
+}
+
+.ryt_icon_team {
+  right: 0;
+  bottom: 10px;
+  width: 80px;
+}
+
+.left_icon_team {
+  left: 0;
+  top: 50px;
+  width: 70px;
+}
+
+.left_icon_cercil_team {
+  left: 0;
+  top: 200px;
+  width: 70px;
+}
+
 .box_play {
   background: linear-gradient(180deg,
       #f1ff52 6.25%,
@@ -108,6 +290,16 @@
 }
 
 
+
+.slick-list {
+  overflow: visible !important;
+}
+
+element.style {
+  width: 468px !important;
+  /* opacity: 1; */
+  transform: translate3d(-1053px, 0px, 0px);
+}
 
 @keyframes small_large {
   50% {
@@ -309,6 +501,10 @@ button:focus:not(:focus-visible) {
     width: 100% !important;
   }
 
+  .vh_100_xl {
+    min-height: unset;
+  }
+
   :root {
     --fs-xsm: 20px;
     --fs-sm: 18px;
@@ -318,6 +514,44 @@ button:focus:not(:focus-visible) {
 }
 
 @media (max-width: 992px) {
+  .navOpen {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    background: linear-gradient(90.44deg,
+        #fbf4b7 -6.5%,
+        #31cde2 24.17%,
+        #5276ff 57.63%,
+        #d874ff 96.66%);
+    transition: 0.5s ease-in-out;
+    height: 100vh;
+    width: 100%;
+    z-index: 8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navClose {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90.44deg,
+        #fbf4b7 -6.5%,
+        #31cde2 24.17%,
+        #5276ff 57.63%,
+        #d874ff 96.66%);
+    transition: 0.5s ease-in-out;
+    height: 100vh;
+    width: 100%;
+    z-index: 8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .transform_translate {
     transform: translate(-50%) !important;
     left: 50%;

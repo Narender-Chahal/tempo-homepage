@@ -9,6 +9,7 @@ import Team from "./components/Team";
 import WatchSection from "./components/WatchSection";
 import SliderSection from "./components/SliderSection";
 import FaqSection from "./components/FaqSection";
+import Roadmap from "./components/Roadmap";
 
 function App() {
   
@@ -24,6 +25,7 @@ function App() {
       <SliderSection />
       <Team />
       <FaqSection />
+      <Roadmap/>
     </>
   );
 }

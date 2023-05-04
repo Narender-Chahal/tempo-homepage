@@ -58,7 +58,7 @@ function Mynav() {
                   </a>
                 </li>
                 <li className="pt-3">
-                  <button className="Navbtn navbtn_set border-0 ff_magra fs_sm text-white  bg-transparent   d-flex justify-content-center align-items-center  pb-3">
+                  <button className="Navbtn navbtn_set border-0 ff_magra fs_sm text-white  bg-transparent   d-flex justify-content-center align-items-center  pb-3 ">
                     Connect
                   </button>
                 </li>
