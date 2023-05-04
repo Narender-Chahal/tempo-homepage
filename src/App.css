@@ -1261,4 +1261,7 @@ ul li a:hover::before {
     height: 70px;
     width: 70px;
   }
+  .fs_30{
+    font-size: 18px;
+  }
 }
