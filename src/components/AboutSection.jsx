@@ -24,7 +24,7 @@ function AboutSection() {
               tincidunt sed sed quam in. Augue justo lacus, magna at ornare sed.
             </p>
 
-            <button className="position-relative mt-5  bg-transparent border-0 ">
+            <button className="position-relative mt-5  bg-transparent mint_hover border-0 ">
               <img className="mint_bg " src={mint_bg_img} alt="mint_bg_img" />
               <span className="mint_bg_btn  position-absolute top-0 start-0 ff_highspeed fs_xsm text-white">
                 mint now

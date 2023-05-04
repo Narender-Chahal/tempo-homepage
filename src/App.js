@@ -34,7 +34,7 @@ function App() {
       <AboutSection />
       <WatchSection />
       <SliderSection />
-      {/* <Roadmap/> */}
+      <Roadmap/>
       <Team />
       <div className="faq_bg ">
         <FaqSection />

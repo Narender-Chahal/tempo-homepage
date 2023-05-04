@@ -38,18 +38,18 @@ function SliderSection() {
         alt="Nft_img_position"
       />
       <button
-        className="button_prev border-0 position-absolute   top_65 left_5 "
+        className="button_prev border-0 position-absolute slider_btn_adjust   left_5 "
         onClick={() => first.current.slickPrev()}
       >
         <img className="" src={back_vector} alt="back_vector" />
       </button>
       <button
-        className="button_prev border-0 position-absolute    top_65 right_5 "
+        className="button_prev border-0 position-absolute  slider_btn_adjust   right_5 "
         onClick={() => first.current.slickNext()}
       >
         <img src={next_vector} alt="next_vector" />
       </button>
-      <div className="blur_circle2 position-absolute d-none d-md-block end-0"></div>
+      <div className="blur_circle2 position-absolute d-none light_animation d-md-block end-0"></div>
       <Container className=" overflow-hidden">
         <h2 className="mb-0  ff_highspeed fs_md text-white nft_text_shadow z_2 position-relative text-center pb-md-5 pb-4">
           our nft

@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import footer_logo from "../assets/img/png/logo.png";
 import { Container } from "react-bootstrap";
+import LeftICon from "../assets/img/png/left_circel_icon.png";
+
 import back_to_top from "../assets/img/png/back_to_top.png";
 
 function FooterSection() {
@@ -27,7 +29,15 @@ function FooterSection() {
         href="#"
       >
         <img src={back_to_top} alt="back_to_top" />
-      </a>
+      </a>{" "}
+      <div className="footer_blur light_animation bottom-0 start-0 position-absolute ">
+        {" "}
+      </div>
+      <img
+        className="position-absolute bottom-0 start-0 footer_start"
+        src={LeftICon}
+        alt="LeftICon"
+      />
       <Container className="pt-5 mt-5">
         <div className="text-center">
           <a href="#">

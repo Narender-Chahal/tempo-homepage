@@ -9,7 +9,7 @@ const Team = () => {
   return (
     <>
       <section className="py-lg-5 position-relative">
-        <div className="ryt_blur_light position-absolute team_side_light">
+        <div className="ryt_blur_light light_animation position-absolute team_side_light">
           {" "}
         </div>
         <img
@@ -17,7 +17,7 @@ const Team = () => {
           src={RytICon}
           alt="RytICon"
         />
-        <div className="ryt_blur_light position-absolute left_icon_team"></div>
+        <div className="ryt_blur_light light_animation position-absolute left_icon_team"></div>
         <img
           className="position-absolute left_icon_cercil_team"
           src={LeftICon}
@@ -25,9 +25,9 @@ const Team = () => {
         />
         <Container>
           <div className="text-center pt-md-5">
-              <h2 className="ff_highspeed fs_md text-white team_text_shadow position-relative">
-                Team
-              </h2>
+            <h2 className="ff_highspeed fs_md text-white team_text_shadow position-relative">
+              Team
+            </h2>
           </div>
           <Row className="py-md-5 justify-content-center">
             <Col sm={6} xs={8} lg={4}>
