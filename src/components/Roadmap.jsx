@@ -252,16 +252,10 @@ const Roadmap = () => {
                         Month 7
                       </h3>
                       <p className="white_circel position-relative text-white ff_magra fs_sm">
-                        Artist Provides Samples to be Voted on{" "}
+                        Community Vote on Gen 2 NFT that offers Tokenomics{" "}
                       </p>
                       <p className="white_circel position-relative text-white ff_magra fs_sm">
-                        Market Place Dev Announcement{" "}
-                      </p>
-                      <p className="white_circel position-relative text-white ff_magra fs_sm">
-                        Begin Construction of secondary Market
-                      </p>
-                      <p className="white_circel position-relative text-white ff_magra fs_sm">
-                        Third Community Vote, Choosing the Art{" "}
+                        Artist Commences work{" "}
                       </p>
                     </div>
                   </div>
@@ -281,13 +275,10 @@ const Roadmap = () => {
                         Month 8
                       </h3>
                       <p className="white_circel position-relative text-white ff_magra fs_sm">
-                        Third Community Vote, Choosing the Art Ends{" "}
+                        Community Vote on Defi Developments{" "}
                       </p>
                       <p className="white_circel position-relative text-white ff_magra fs_sm">
-                        Artist begins working on official DAO/PFP NFT{" "}
-                      </p>
-                      <p className="white_circel position-relative text-white ff_magra fs_sm">
-                        Second Marketplace Testing Vote: Choose Artist
+                        Announcement on Token release{" "}
                       </p>
                     </div>
                   </div>
@@ -307,14 +298,13 @@ const Roadmap = () => {
                         Month 9
                       </h3>
                       <p className="white_circel position-relative text-white ff_magra fs_sm">
-                        Launch of NFT Marketplace{" "}
+                        Comunity Vote on name of Token{" "}
                       </p>
                       <p className="white_circel position-relative text-white ff_magra fs_sm">
-                        6 Month Autonomous bot report to holders with proof of
-                        return{" "}
+                        Preview of Gen 2 Art Released across media
                       </p>
                       <p className="white_circel position-relative text-white ff_magra fs_sm">
-                        Expected Mint for DAO/PFP NFT
+                        Dev Chosen to work alongside team focusing on Defi{" "}
                       </p>
                     </div>
                   </div>
