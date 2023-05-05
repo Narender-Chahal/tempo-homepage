@@ -4,7 +4,7 @@ import DropIcon from "../assets/img/svg/drop-down.svg";
 const HeroSection = () => {
   return (
     <>
-      <section className="d-flex flex-column align-items-center justify-content-center flex-grow-1 py-5 py-xl-0"id="hero">
+      <section className="d-flex flex-column align-items-center justify-content-center flex-grow-1 py-5 mt-5 py-xxl-0"id="hero">
         <Container>
           <h1 className="ff_highspeed fs_lg text-white text-center text-sm-start">
             Ornare orn{" "}

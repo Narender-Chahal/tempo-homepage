@@ -30,7 +30,7 @@ const Roadmap = () => {
               src={Roadline}
               alt="Roadline"
             />
-            <Col lg={2} xs={8} sm={10}>
+            <Col lg={2} xs={12} sm={10}>
               <div className="text-center text-lg-start">
                 <div className="question_1 d-flex justify-content-center align-items-center linier_border">
                   <span className="ff_highspeed fs_lg text-white img_rotate ms-3">
@@ -75,7 +75,7 @@ const Roadmap = () => {
                   lg={3}
                   xs={8}
                   sm={12}
-                  className="position-relative mt-5 mt-lg-0"
+                  className="position-relative mt-sm-5 mt-3 mt-lg-0"
                 >
                   <div className="d-flex flex-column flex-sm-row flex-lg-column  mt-3 mt-lg-0">
                     <div className="star_circel d-flex justify-content-center d-none d-lg-flex align-items-center mx-auto mx-md-0 mt-md-5 mt-lg-0">
@@ -109,7 +109,7 @@ const Roadmap = () => {
                   lg={3}
                   xs={8}
                   sm={12}
-                  className="position-relative mt-5 mt-lg-0"
+                  className="position-relative mt-sm-5 mt-3 mt-lg-0"
                 >
                   <div className="d-flex flex-column flex-sm-row flex-lg-column  mt-sm-3 mt-lg-0">
                     <div className="star_circel d-flex justify-content-center d-none d-lg-flex align-items-center mx-auto mx-md-0 mt-5 mt-lg-0">
@@ -120,7 +120,7 @@ const Roadmap = () => {
                         alt="Polygon"
                       />
                     </div>
-                    <div className="d-lg-none mt-5">
+                    <div className="d-lg-none mt-sm-5">
                       <img src={month3_img} alt="month3_img" />
                     </div>
                     <div className=" mt-3 ms-sm-4 ps-sm-5 ms-lg-0 ps-lg-0 mt-lg-0">
@@ -149,7 +149,7 @@ const Roadmap = () => {
               src={Roadline}
               alt="Roadline"
             />
-            <Col lg={2} xs={8} sm={10}>
+            <Col lg={2} xs={12} sm={10}>
               <div className="text-center text-lg-start">
                 <div className="question_1 d-flex justify-content-center align-items-center linier_border">
                   <span className="ff_highspeed fs_lg text-white img_rotate ms-3">
@@ -260,8 +260,8 @@ const Roadmap = () => {
               src={Roadline}
               alt="Roadline"
             />
-            <Col lg={2} sm={10} xs={8}>
-              <div className="text-center text-lg-start">
+            <Col lg={2} sm={10} xs={12}>
+              <div className="text-center text-lg-start mt-3 mt-sm-0">
                 <div className="question_1 d-flex justify-content-center align-items-center linier_border">
                   <span className="ff_highspeed fs_lg text-white img_rotate ms-3">
                     Q3
@@ -281,7 +281,7 @@ const Roadmap = () => {
                         alt="Polygon"
                       />
                     </div>
-                    <div className="d-lg-none mt-5">
+                    <div className="d-lg-none mt-sm-5">
                       <img src={month7_img} alt="month7_img" />
                     </div>
                     <div className="mt-sm-5 mt-3 ms-sm-4 ps-sm-5 ms-lg-0 ps-lg-0">
@@ -307,7 +307,7 @@ const Roadmap = () => {
                         alt="Polygon"
                       />
                     </div>
-                    <div className="d-lg-none mt-5">
+                    <div className="d-lg-none mt-sm-5">
                       <img src={month8_img} alt="month8_img" />
                     </div>
                     <div className="mt-sm-5 mt-3 ms-sm-4 ps-sm-5 ms-lg-0 ps-lg-0 mt-lg-0">
@@ -333,7 +333,7 @@ const Roadmap = () => {
                         alt="Polygon"
                       />
                     </div>
-                    <div className="d-lg-none mt-5">
+                    <div className="d-lg-none mt-sm-5">
                       <img src={month9_img} alt="month9_img" />
                     </div>
                     <div className="mt-sm-5 mt-3 ms-sm-4 ps-sm-5 ms-lg-0 ps-lg-0 mt-lg-0">

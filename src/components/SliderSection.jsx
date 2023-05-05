@@ -51,29 +51,30 @@ function SliderSection() {
 
   return (
     <>
-      <section className="bg-black  pt-5 pb-5 position-relative" id="nft">
+      <section className="bg-black  pt-5 pb-5 " id="nft">
         <img
           className="position-absolute d-none d-md-block end-0 nft_img1"
           src={Nft_img_position}
           alt="Nft_img_position"
         />
-        <button
-          className="button_prev border-0 position-absolute slider_btn_adjust d-none d-sm-block  left_5 "
-          onClick={() => first.current.slickPrev()}
-        >
-          <img className="" src={back_vector} alt="back_vector" />
-        </button>
-        <button
-          className="button_prev border-0 position-absolute  slider_btn_adjust d-none d-sm-block  right_5 "
-          onClick={() => first.current.slickNext()}
-        >
-          <img src={next_vector} alt="next_vector" />
-        </button>
+
         <div className="blur_circle2 position-absolute d-none light_animation d-md-block end-0"></div>
-        <Container className=" overflow-hidden">
+        <Container className="  position-relative">
           <h2 className="mb-0  ff_highspeed fs_md text-white nft_text_shadow z_2 position-relative text-center pb-md-5 pb-4">
             our nft
           </h2>{" "}
+          <button
+            className="button_prev border-0 position-absolute slider_btn_adjust d-none d-sm-block  left_5 "
+            onClick={() => first.current.slickPrev()}
+          >
+            <img className="" src={back_vector} alt="back_vector" />
+          </button>
+          <button
+            className="button_prev border-0 position-absolute  slider_btn_adjust d-none d-sm-block  right_5 "
+            onClick={() => first.current.slickNext()}
+          >
+            <img src={next_vector} alt="next_vector" />
+          </button>
           <Slider ref={first} {...settings} className="py-xl-5">
             <div className="py-lg-5 mt-5">
               <div className="box_linear mt-5   mx-2 text-center">

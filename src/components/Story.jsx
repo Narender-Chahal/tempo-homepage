@@ -51,7 +51,7 @@ const Story = () => {
         />
 
         <Container>
-          <Row className="align-items-center justify-content-between">
+          <Row className="align-items-center justify-content-xxl-between">
             <Col lg={6}>
               <div
                 className="gradiant_border d-inline-block overflow-hidden d-flex justify-content-center justify-content-lg-start"
@@ -60,7 +60,7 @@ const Story = () => {
                 <img className="w-100 " src={Gifvidio} alt="Gifvidio" />
               </div>
             </Col>
-            <Col lg={5}>
+            <Col xxl={5} lg={6} className="ps-lg-5 ps-xxl-0 ">
               <div
                 className="mt-5 mt-lg-0 text-center text-lg-start"
                 data-aos="fade-up"
