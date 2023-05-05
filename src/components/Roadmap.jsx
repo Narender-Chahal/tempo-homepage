@@ -13,7 +13,7 @@ import GlassImg from "../assets/img/png/glass_img.png";
 const Roadmap = () => {
   return (
     <>
-      <section className="py-5 overflow-hidden bg_roadmap">
+      <section className="py-5 overflow-hidden bg_roadmap"id="roadmap">
         <Container className="pt-5">
           <div className="text-center">
             <h2 className="ff_highspeed fs_md text-white">ROADMAP</h2>

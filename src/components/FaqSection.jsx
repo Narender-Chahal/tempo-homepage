@@ -5,7 +5,7 @@ import Nft_img_position from "../assets/img/png/nft_img1.png";
 
 function FaqSection() {
   return (
-    <section className="position-relative pt-5">
+    <section className="position-relative pt-5"id="faq">
       <img
         className="position-absolute end-0 nft_img1"
         src={Nft_img_position}

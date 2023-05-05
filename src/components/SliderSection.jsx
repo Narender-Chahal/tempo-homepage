@@ -31,7 +31,7 @@ function SliderSection() {
     ],
   };
   return (
-    <section className="bg-black  pt-5 pb-5 position-relative">
+    <section className="bg-black  pt-5 pb-5 position-relative"id="nft">
       <img
         className="position-absolute end-0 nft_img1"
         src={Nft_img_position}

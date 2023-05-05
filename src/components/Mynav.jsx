@@ -28,32 +28,32 @@ function Mynav() {
                   className="btn-close position-absolute d-lg-none top-0 end-0 m-5"
                 ></button>
                 <li onClick={() => setfirst(true)}>
-                  <a href="#" className="ff_magra fs_sm text-white mb-0">
+                  <a href="#home" className="ff_magra fs_sm text-white mb-0">
                     Home{" "}
                   </a>
                 </li>
                 <li onClick={() => setfirst(true)}>
-                  <a href="#" className="ff_magra fs_sm text-white mb-0">
+                  <a href="#about" className="ff_magra fs_sm text-white mb-0">
                     About Us{" "}
                   </a>
                 </li>
                 <li onClick={() => setfirst(true)}>
-                  <a href="#" className="ff_magra fs_sm text-white mb-0">
+                  <a href="#nft" className="ff_magra fs_sm text-white mb-0">
                     NFTs{" "}
                   </a>
                 </li>
                 <li onClick={() => setfirst(true)}>
-                  <a href="#" className="ff_magra fs_sm text-white mb-0">
+                  <a href="#roadmap" className="ff_magra fs_sm text-white mb-0">
                     Roadmap{" "}
                   </a>
                 </li>
                 <li onClick={() => setfirst(true)}>
-                  <a href="#" className="ff_magra fs_sm text-white mb-0">
+                  <a href="#team" className="ff_magra fs_sm text-white mb-0">
                     Team{" "}
                   </a>
                 </li>
                 <li onClick={() => setfirst(true)}>
-                  <a href="#" className="ff_magra fs_sm text-white mb-0">
+                  <a href="#faq" className="ff_magra fs_sm text-white mb-0">
                     FAQ{" "}
                   </a>
                 </li>
