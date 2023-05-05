@@ -205,7 +205,7 @@ const Roadmap = () => {
                     <div className="d-lg-none mt-sm-5 ">
                       <img src={month2_img} alt="month2_img" />
                     </div>
-                    <div className="mt-lg-5 mt-3 ms-sm-4 ps-sm-5 ms-lg-0 ps-lg-0 mt-lg-0">
+                    <div className=" mt-3 ms-sm-4 ps-sm-5 ms-lg-0 ps-lg-0 mt-lg-0">
                       <h3 className="text-white mt-lg-5 pt-lg-3 ff_highspeed fs_30">
                         Month 5
                       </h3>
@@ -234,7 +234,7 @@ const Roadmap = () => {
                     <div className="d-lg-none mt-sm-5">
                       <img src={month3_img} alt="month3_img" />
                     </div>
-                    <div className="mt-lg-5 mt-3 ms-sm-4 ps-sm-5 ms-lg-0 ps-lg-0 mt-lg-0">
+                    <div className=" mt-3 ms-sm-4 ps-sm-5 ms-lg-0 ps-lg-0 mt-lg-0">
                       <h3 className="text-white mt-lg-5 pt-lg-3 ff_highspeed fs_30">
                         Month 6
                       </h3>
