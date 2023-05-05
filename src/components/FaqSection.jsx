@@ -5,18 +5,13 @@ import Nft_img_position from "../assets/img/png/nft_img1.png";
 
 function FaqSection() {
   return (
-<<<<<<< HEAD
-    <section className="position-relative pt-5">
-     
-=======
-    <section className="position-relative pt-5"id="faq">
+    <section className="position-relative pt-5" id="faq">
       <img
         className="position-absolute end-0 nft_img1"
         src={Nft_img_position}
         alt="Nft_img_position"
       />{" "}
       <div className="blur_circle2 position-absolute end-0"></div>
->>>>>>> 41a13c6e6523071a6e7d6cf838ceb24918d7bd6e
       <Container>
         {" "}
         <h2 className="mb-0  ff_highspeed fs_md text-white faq_text_shadow z_2 position-relative text-center pt-5">
