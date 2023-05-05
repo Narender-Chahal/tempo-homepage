@@ -6,7 +6,7 @@ import about_img3 from "../assets/img/png/about_img3.png";
 import mint_bg_img from "../assets/img/png/mint_btn_bg.png";
 function AboutSection() {
   return (
-    <section className="bg-black py-5">
+    <section className="bg-black py-5" id="about">
       <Container>
         <Row className="align-items-center flex-column-reverse d-flex flex-lg-row  justify-content-between">
           <Col lg={6} className="mt-5 mt-lg-0 text-center text-lg-start">

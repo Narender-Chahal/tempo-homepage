@@ -8,8 +8,13 @@ import LeftICon from "../assets/img/png/left_circel_icon.png";
 const Team = () => {
   return (
     <>
+<<<<<<< HEAD
       <section className="py-lg-5 position-relative">
         <div className="ryt_blur_light light_animation position-absolute team_side_light">
+=======
+      <section className="py-5 position-relative"id="team">
+        <div className="ryt_blur_light position-absolute team_side_light">
+>>>>>>> 41a13c6e6523071a6e7d6cf838ceb24918d7bd6e
           {" "}
         </div>
         <img
