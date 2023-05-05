@@ -7,7 +7,9 @@ ul {
   left: -40px;
   transform: translateX(100px);
 }
-
+.mb_5{
+  margin-top: -110px;
+}
 ul li a::before {
   position: absolute;
   content: "";
@@ -298,7 +300,8 @@ ul li a:hover::before {
   
 }
 @media (max-width: 992px) {
-  /*  */
-
+.w_lg_100{
+  width: 100%;
+}
   
 }
